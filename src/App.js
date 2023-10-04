@@ -11,9 +11,10 @@ function App() {
   const [timer, setTimer] = useState();
 
   useEffect(()=>{
-    //getData().then(data=>{console.log(data)});
-    setFiles(data);
-  },[]);
+    if(files === undefined || files === null){
+      handleRefresh();  
+    }
+  },[refreshing]);
 
   
   useEffect(()=>{

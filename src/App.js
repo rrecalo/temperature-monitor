@@ -1,27 +1,57 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import { Storage } from 'aws-amplify';
 import getData from './S3-Functions';
 import data from './data.json';
 import Card from './Card';
+import {BiRefresh} from 'react-icons/bi';
 
 function App() {
   const [files, setFiles] = useState();
+  const [refreshing, isRefreshing] = useState();
+  const [timer, setTimer] = useState();
 
   useEffect(()=>{
     //getData().then(data=>{console.log(data)});
     setFiles(data);
   },[]);
 
+  
+  useEffect(()=>{
+    if(timer > 0){
+    setTimeout(() => {
+      setTimer(val => val-1);
+    }, 1000);
+    }
+    else
+      isRefreshing(false);
+  },[timer]);
+
   function renderDisplayCards(){
     return(
     <>
-      <Card data={files[0].tempF} dataLabel={"Temperature"}/> 
-      <Card data={files[0].humidity} dataLabel={"Humidity"}/>
+      <Card data={(files[0]?.tempF)?.toFixed(2)} dataLabel={"Temperature"}/> 
+      <Card data={files[0]?.humidity} dataLabel={"Relative Humidity"}/>
     </>)
   }
 
+  function refreshData(){
+    getData().then(data=>
+      {setFiles(data);});
+  }
+  
+  function handleRefresh(){
+    if(!refreshing){
+      refreshData();
+      isRefreshing(true);
+      setTimer(30);
+    }
+
+  }
+
   function formatUnixTimestamp(unixTimestamp) {
+    if(!unixTimestamp){
+      return `Loading...`;
+    }
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   
@@ -41,9 +71,19 @@ function App() {
   return (
     <div className="App mx-2 lg:mx-[10vw] mt-[10vh]">
       <div className='flex flex-col gap-8'>
-        <div className='text-stone-200 font-bold text-2xl text-center'>Live DHT11 sensor readings</div>
+        <div className='flex flex-row justify-center items-center gap-3'>
+        <div className='text-stone-200 font-bold text-xl md:text-2xl text-center'>
+          DHT11 Temperature Monitor
+        </div>
+        <div className={`${timer > 0 ? '' : 'cursor-pointer'} bg-stone-900 rounded-lg flex justify-center items-center align-middle w-12 h-12`} onClick={handleRefresh}>
+          { !refreshing ? 
+          <BiRefresh className='text-3xl text-stone-200' />
+          : <p className='text-xl text-stone-300'>{timer}</p>
+          }
+        </div>
+        </div>
         
-        {files ? <div className='text-stone-200 font-normal text-2xl text-center'>{formatUnixTimestamp(files[0].timestamp)}</div>
+        {files ? <div className='text-stone-200 font-normal text-lg md:text-2xl text-center'>{formatUnixTimestamp(files[0]?.timestamp)}</div>
         : <></>
         }
         <div className='flex flex-col gap-10 justify-center items-center'>

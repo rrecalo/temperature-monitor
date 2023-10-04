@@ -1,7 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import getData from './S3-Functions';
-import data from './data.json';
+//import data from './data.json'; mock data
 import Card from './Card';
 import {BiRefresh} from 'react-icons/bi';
 
@@ -84,7 +84,7 @@ function App() {
         </div>
         </div>
         
-        {files ? <div className='text-stone-200 font-normal text-lg md:text-2xl text-center'>{formatUnixTimestamp(files[0]?.timestamp)}</div>
+        {files ? <div className='text-stone-200 font-normal md:text-2xl text-center'>{formatUnixTimestamp(files[0]?.timestamp)}</div>
         : <></>
         }
         <div className='flex flex-col gap-10 justify-center items-center'>

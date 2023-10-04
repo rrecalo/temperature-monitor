@@ -1,0 +1,767 @@
+[
+    {
+        "timestamp": 1696379099,
+        "humidity": 48,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696379038,
+        "humidity": 48,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378792,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696378670,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696378915,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696378854,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696378731,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696378976,
+        "humidity": 48,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378547,
+        "humidity": 49,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378608,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696378424,
+        "humidity": 49,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378486,
+        "humidity": 49,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378363,
+        "humidity": 49,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378301,
+        "humidity": 49,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378240,
+        "humidity": 49,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378179,
+        "humidity": 48,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378056,
+        "humidity": 48,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696378117,
+        "humidity": 48,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696377933,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696377995,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696377872,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696377811,
+        "humidity": 48,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696377688,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377749,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377627,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696377565,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377504,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377443,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377381,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377320,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377259,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377197,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696377136,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696377075,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696377013,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376891,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376768,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376829,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376707,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376645,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376584,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376952,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376523,
+        "humidity": 49,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376400,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696376338,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696376461,
+        "humidity": 49,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696376277,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696376093,
+        "humidity": 50,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376032,
+        "humidity": 50,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376154,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375970,
+        "humidity": 50,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696375909,
+        "humidity": 50,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696376216,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375848,
+        "humidity": 50,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696375786,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375664,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375602,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375725,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375541,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375418,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375295,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375357,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375234,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375480,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375173,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375111,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696375050,
+        "humidity": 50,
+        "tempF": 73.04000092
+    },
+    {
+        "timestamp": 1696374989,
+        "humidity": 50,
+        "tempF": 73.04000092
+    },
+    {
+        "timestamp": 1696374866,
+        "humidity": 50,
+        "tempF": 73.22000122
+    },
+    {
+        "timestamp": 1696374805,
+        "humidity": 50,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374927,
+        "humidity": 50,
+        "tempF": 73.04000092
+    },
+    {
+        "timestamp": 1696374743,
+        "humidity": 50,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374682,
+        "humidity": 50,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374620,
+        "humidity": 50,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374559,
+        "humidity": 51,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374498,
+        "humidity": 51,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374436,
+        "humidity": 51,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374375,
+        "humidity": 51,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696374314,
+        "humidity": 51,
+        "tempF": 73.22000122
+    },
+    {
+        "timestamp": 1696374252,
+        "humidity": 51,
+        "tempF": 73.04000092
+    },
+    {
+        "timestamp": 1696374130,
+        "humidity": 52,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696374068,
+        "humidity": 52,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696374191,
+        "humidity": 51,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696374007,
+        "humidity": 52,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696373945,
+        "humidity": 52,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696373823,
+        "humidity": 53,
+        "tempF": 72.31999969
+    },
+    {
+        "timestamp": 1696373761,
+        "humidity": 53,
+        "tempF": 72.31999969
+    },
+    {
+        "timestamp": 1696373700,
+        "humidity": 53,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373639,
+        "humidity": 53,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373577,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373516,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373455,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373393,
+        "humidity": 52,
+        "tempF": 71.95999908
+    },
+    {
+        "timestamp": 1696373884,
+        "humidity": 53,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696373332,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373271,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373209,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373087,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373148,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696373025,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696372964,
+        "humidity": 52,
+        "tempF": 72.13999939
+    },
+    {
+        "timestamp": 1696372841,
+        "humidity": 52,
+        "tempF": 72.31999969
+    },
+    {
+        "timestamp": 1696372903,
+        "humidity": 52,
+        "tempF": 72.31999969
+    },
+    {
+        "timestamp": 1696372780,
+        "humidity": 52,
+        "tempF": 72.31999969
+    },
+    {
+        "timestamp": 1696372719,
+        "humidity": 52,
+        "tempF": 72.31999969
+    },
+    {
+        "timestamp": 1696372657,
+        "humidity": 52,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372596,
+        "humidity": 52,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372473,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372535,
+        "humidity": 52,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372350,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372289,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372412,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372228,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372105,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372044,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371982,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371860,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371921,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696372166,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371676,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371737,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371614,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371553,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371798,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371492,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371430,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371246,
+        "humidity": 51,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696371307,
+        "humidity": 51,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696371369,
+        "humidity": 51,
+        "tempF": 72.5
+    },
+    {
+        "timestamp": 1696371185,
+        "humidity": 51,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696371123,
+        "humidity": 51,
+        "tempF": 72.68000031
+    },
+    {
+        "timestamp": 1696371062,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696371001,
+        "humidity": 50,
+        "tempF": 72.86000061
+    },
+    {
+        "timestamp": 1696370939,
+        "humidity": 50,
+        "tempF": 73.04000092
+    },
+    {
+        "timestamp": 1696370878,
+        "humidity": 50,
+        "tempF": 73.22000122
+    },
+    {
+        "timestamp": 1696370817,
+        "humidity": 50,
+        "tempF": 73.40000153
+    },
+    {
+        "timestamp": 1696370755,
+        "humidity": 51,
+        "tempF": 73.58000183
+    },
+    {
+        "timestamp": 1696370694,
+        "humidity": 51,
+        "tempF": 73.58000183
+    },
+    {
+        "timestamp": 1696370633,
+        "humidity": 51,
+        "tempF": 73.76000214
+    },
+    {
+        "timestamp": 1696370571,
+        "humidity": 51,
+        "tempF": 73.76000214
+    },
+    {
+        "timestamp": 1696370510,
+        "humidity": 51,
+        "tempF": 73.76000214
+    },
+    {
+        "timestamp": 1696370326,
+        "humidity": 51,
+        "tempF": 73.94000244
+    },
+    {
+        "timestamp": 1696370387,
+        "humidity": 51,
+        "tempF": 73.94000244
+    },
+    {
+        "timestamp": 1696370449,
+        "humidity": 51,
+        "tempF": 73.94000244
+    },
+    {
+        "timestamp": 1696370264,
+        "humidity": 51,
+        "tempF": 73.94000244
+    },
+    {
+        "timestamp": 1696370203,
+        "humidity": 51,
+        "tempF": 74.12999725
+    },
+    {
+        "timestamp": 1696370142,
+        "humidity": 50,
+        "tempF": 74.12999725
+    },
+    {
+        "timestamp": 1696370080,
+        "humidity": 50,
+        "tempF": 74.30999756
+    },
+    {
+        "timestamp": 1696370019,
+        "humidity": 50,
+        "tempF": 74.30999756
+    },
+    {
+        "timestamp": 1696369958,
+        "humidity": 50,
+        "tempF": 74.48999786
+    },
+    {
+        "timestamp": 1696369896,
+        "humidity": 51,
+        "tempF": 74.48999786
+    },
+    {
+        "timestamp": 1696369835,
+        "humidity": 51,
+        "tempF": 74.66999817
+    },
+    {
+        "timestamp": 1696369774,
+        "humidity": 51,
+        "tempF": 74.66999817
+    }
+]

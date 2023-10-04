@@ -6,11 +6,14 @@ async function getAllObjectKeys(objectCount){
     const request = await Storage.list('esp32/pub/', {pageSize: objectCount});
     let keys = [];
     if(request.results){
-        request.results.map((obj) => {
+        request.results.forEach((obj) => {
             keys.push(obj.key);
         });
     }
-    //console.log(request.results.reverse());
+    else{
+        console.log("Error listing data from S3 bucket...");
+    }
+    //we reverse so that the newest added object in s3 is listed first, instead of the default (oldest first)
     keys.reverse();
     return keys;
 }

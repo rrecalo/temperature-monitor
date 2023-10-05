@@ -37,11 +37,7 @@ async function getData(objectCount){
         keys = await getAllObjectKeys('ALL');
     }
     let data = [];
-    keys.forEach((item) => {
-        getObjectByKey(item).then(obj=>{
-            data.push(obj);
-        });
-    });
+    getObjectByKey(keys[0]).then(obj => data.push(obj));
 
     return data;
 }

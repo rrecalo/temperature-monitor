@@ -6,15 +6,15 @@ import Card from './Card';
 import {BiRefresh} from 'react-icons/bi';
 
 function App() {
-  const [files, setFiles] = useState();
+  const [files, setFiles] = useState([]);
   const [refreshing, isRefreshing] = useState();
   const [timer, setTimer] = useState();
 
   useEffect(()=>{
-    if(files === undefined || files === null){
+    if(files === undefined || files === null || files.length < 1){
       handleRefresh();  
     }
-  },[refreshing]);
+  },[]);
 
   
   useEffect(()=>{
@@ -42,11 +42,11 @@ function App() {
   
   function handleRefresh(){
     if(!refreshing){
-      refreshData();
+      console.log("REFRESH DATA");
       isRefreshing(true);
+      refreshData();
       setTimer(30);
     }
-
   }
 
   function formatUnixTimestamp(unixTimestamp) {

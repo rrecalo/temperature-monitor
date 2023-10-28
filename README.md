@@ -1,6 +1,7 @@
 # IoT Temperature and Humidity Monitor Web Interface
 A web interface for displaying live IoT sensor data (<1 min old)
 
+[Live Deploy](https://master.d3tgy8y41907fm.amplifyapp.com/)
 ### Built With
 [![My Skills](https://skillicons.dev/icons?i=react,tailwind,aws)](https://skillicons.dev)
 

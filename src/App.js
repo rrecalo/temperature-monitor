@@ -53,20 +53,21 @@ function App() {
     if(!unixTimestamp){
       return `Loading...`;
     }
-    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  
     const date = new Date(unixTimestamp * 1000);
-    
-    const dayOfWeek = daysOfWeek[date.getUTCDay()];
-    const day = String(date.getUTCDate()).padStart(2, '0');
-    const month = months[date.getUTCMonth()];
-    const year = String(date.getUTCFullYear()).substring(2);
-    const hours = String(date.getUTCHours()).padStart(2, '0');
-    const minutes = String(date.getUTCMinutes()).padStart(2, '0');
-    const seconds = String(date.getUTCSeconds()).padStart(2, '0');
-    
-    return `${dayOfWeek}, ${day}-${month}-${year} ${hours}:${minutes}:${seconds} UTC`;
+    const formatter = new Intl.DateTimeFormat('en-US', {
+        weekday: 'long',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour12: true,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        timeZone: 'UTC',
+        timeZoneName: 'short'
+    });
+
+    return formatter.format(date);
   }
   
   return (

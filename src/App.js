@@ -11,9 +11,7 @@ function App() {
   const [timer, setTimer] = useState();
 
   useEffect(()=>{
-    if(files === undefined || files === null || files.length < 1){
-      handleRefresh();  
-    }
+    if(files == null || files.length < 1) handleRefresh();
   },[]);
 
   
@@ -90,10 +88,7 @@ function App() {
         }
         <div className='flex flex-col gap-10 justify-center items-center'>
 
-        {files ? 
-        renderDisplayCards()
-        : <></>
-        }
+        {files ? renderDisplayCards() : <></>}
         </div>
       </div>
     </div>

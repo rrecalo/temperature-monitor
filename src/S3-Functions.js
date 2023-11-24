@@ -1,5 +1,6 @@
-import { Storage } from 'aws-amplify';
+import { API, graphqlOperation } from 'aws-amplify';
 
+/*
 //Get all the objects stored in the s3 under directory 'public/esp32/pub/'
 //Files are indexed by a UNIX timestamp as their name
 async function getAllObjectKeys(objectCount){
@@ -23,7 +24,7 @@ async function getObjectByKey(objectKey){
 }
 
 //Parameter objectCount should be of type number - or not passed at all
-async function getData(objectCount){
+export async function getData(objectCount){
     let keys = [];
     objectCount ? keys = await getAllObjectKeys(objectCount) : keys = await getAllObjectKeys('ALL');
 
@@ -32,5 +33,31 @@ async function getData(objectCount){
 
     return data;
 }
+*/
 
-export default getData;
+export async function getLastDayData(){
+    try{
+
+        const yesterday = ((new Date() - (24 * 60 * 60 * 1000)) / 1000).toFixed();
+        const result = await API.graphql(graphqlOperation(`
+        query MyQuery {
+            listDht11Data(filter: {timestamp: {gt: ${yesterday}}}, limit: 2000) {
+                items {
+                  tempF
+                  humidity
+                  timestamp
+                }
+              }
+          }`));
+
+        let data = result.data.listDht11Data.items;
+        data.sort((a, b) => a.timestamp - b.timestamp);
+        return data;
+    }
+    catch(err){
+        console.log(err);
+
+    }
+
+}
+

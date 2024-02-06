@@ -1,6 +1,6 @@
 import './App.css';
-import { useEffect, useState, useRef } from 'react';
-import { getLastDayData} from './S3-Functions';
+import { useEffect, useState} from 'react';
+import { getLastDayData} from './AWS-Functions';
 import Card from './Card';
 import {BiRefresh} from 'react-icons/bi';
 import {

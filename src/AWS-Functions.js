@@ -6,7 +6,7 @@ export async function getLastDayData(){
         const yesterday = ((new Date() - (24 * 60 * 60 * 1000)) / 1000).toFixed();
         const result = await API.graphql(graphqlOperation(`
         query MyQuery {
-            listDht11Data(filter: {timestamp: {gt: ${yesterday}}}, limit: 3000) {
+            listDht11Data(filter: {timestamp: {gt: ${yesterday}}}, limit: 12000) {
                 items {
                   tempF
                   humidity

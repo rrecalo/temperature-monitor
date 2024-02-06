@@ -34,6 +34,7 @@ type DHT11Data = {
 }
 
 function App() {
+  const CHART_GRANULARITY = 1;
   const [refreshing, isRefreshing] = useState<Boolean>();
   const [timer, setTimer] = useState<number>();
   const [data, setData] = useState<DHT11Data[]>();
@@ -94,13 +95,13 @@ function App() {
   
   useEffect(()=>{
     setChartData({
-      labels: data?.map((item : DHT11Data)=> formatXLabels(item.timestamp)).filter((item : any, index : number) => index % 10 === 0),
+      labels: data?.map((item : DHT11Data)=> formatXLabels(item.timestamp)).filter((item : any, index : number) => index % CHART_GRANULARITY === 0),
       datasets:
       [
         {
         label: "Temperature (F)",
-        data: data?.map((item) => item.tempF).filter((item, index) => index % 10 === 0) as number[],
-        borderColor: 'rgba(120, 113, 108, 0.5)',
+        data: data?.map((item) => item.tempF).filter((item, index) => index % CHART_GRANULARITY === 0) as number[],
+        borderColor: 'rgba(120, 113, 108, 1)',
         backgroundColor: 'rgba(245, 245, 244, 1)',
         fill:true,
         tension:0.1,

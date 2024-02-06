@@ -48,7 +48,7 @@ function App() {
         {
         label: "Temperature (F)",
         data: data?.map((item) => item.tempF).filter((item, index) => index % 10 === 0) as number[],
-        borderColor: 'rgba(120, 113, 108, 0.5)',
+        borderColor: 'rgba(120, 113, 108, 1)',
         backgroundColor: 'rgba(245, 245, 244, 1)',
         fill:true,
         tension:0.1,
@@ -76,7 +76,7 @@ function App() {
       x:{
         ticks:{
           maxTicksLimit: 15,
-          minRotation:90,
+          minRotation:45,
           maxRotation:90,
         }
       }
@@ -104,8 +104,8 @@ function App() {
         borderColor: 'rgba(120, 113, 108, 1)',
         backgroundColor: 'rgba(245, 245, 244, 1)',
         fill:true,
-        tension:0.1,
-        pointRadius: 0.5,
+        tension:0.05,
+        pointRadius: 2,
         
         },
       ]
@@ -166,7 +166,7 @@ function App() {
         day: '2-digit',
         month: 'short',
         year: 'numeric',
-        hour12: true,
+        hour12: false,
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
@@ -185,14 +185,14 @@ function App() {
     const formatter = new Intl.DateTimeFormat('en-US', {
         //weekday: 'short',
         day: '2-digit',
-        month: 'short',
+        month:'2-digit',
         //year: 'numeric',
-        hour12: true,
+        hour12: false,
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        timeZone: timezone,
-        timeZoneName: 'short'
+        timeZone: timezone
+        //timeZoneName: 'short'
     });
 
     return formatter.format(date);
